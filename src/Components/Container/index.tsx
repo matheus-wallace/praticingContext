@@ -1,5 +1,5 @@
 'use client';
-import { useTheme } from '@/Context/ThemeContext/ThemeContext';
+import { useTheme } from '@/Context/ThemeContext';
 import React from 'react';
 
 const Container = ({ children }: { children: React.ReactNode }) => {

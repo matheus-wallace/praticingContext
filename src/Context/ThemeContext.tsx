@@ -1,6 +1,6 @@
 'use client';
 import { createContext, useContext, useEffect, useState } from 'react';
-import { theme, ThemeColors, ThemeType } from './Constants';
+import { theme, ThemeColors, ThemeType } from '@/store/Constants';
 
 type ThemeContextType = {
   theme: ThemeColors;
